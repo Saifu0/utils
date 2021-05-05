@@ -1,0 +1,40 @@
+    "vim.vimrc.enable": true,
+    "vim.easymotion": true,
+    "vim.surround" : true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before" : ["j","j"],
+            "after" : ["<Esc>"]
+        }
+    ],
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before" : ["b","n"],
+            "commands" : [":tabnew"]
+        }, 
+        {
+            "before" : ["g","h"],
+            "commands": ["editor.action.revealDefinitionAside"]
+        }
+    ],
+    "editor.lineNumbers" : "relative",
+    "workbench.tree.indent" : 32,
+    "vim.leader": " ",
+    "vim.easymotionMarketFontSize" : "18",
+    "vim.easymotionMarketForegroundColorOneChar" : "yellow",
+    "windom.zoomLevel" : 0,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors" : {
+        "normal": "#268bd2",
+        "insert": "#d33682",
+        "visual": "#268bd2",
+        "visualline": "#2aa198",
+        "visualblock": "#859900",
+        "replace": "#b58900"
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#2aa198",
+        "statusBar.noFolderBackground": "#2aa198",
+        "statusBar.debuggingBackground": "#2aa198"
+    }
